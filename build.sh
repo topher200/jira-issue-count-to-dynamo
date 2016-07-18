@@ -2,7 +2,7 @@
 
 ROOT_DIRNAME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ZIP_FILENAME="package.zip"
-VIRTUALENV_DIR="$HOME/.virtualenvs/asserts/lib/python2.7/site-packages"
+VIRTUALENV_DIR="$HOME/.virtualenvs/jira-issue-count-to-dynamo/lib/python2.7/site-packages"
 
 echo "removing old package file"
 rm $ROOT_DIRNAME/$ZIP_FILENAME

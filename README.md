@@ -23,7 +23,7 @@ have these fields:
   ```
 
 2. Set your `DYNAMO_DB_TABLENAME` in run.py
-3. Create a virtualenv. Mine is named `asserts`
+3. Create a virtualenv. Mine is named `jira-issue-count-to-dynamo`
 4. In your virtualenv, run `pip install -r requirements.txt`
 5. Confirm that the VIRTUALENV_DIR path in build.sh matches your virtualenv's
    packages path
