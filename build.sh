@@ -12,7 +12,7 @@ zip -r9 $ROOT_DIRNAME/$ZIP_FILENAME * &> /dev/null
 
 echo "adding our script"
 cd $ROOT_DIRNAME
-zip -g $ZIP_FILENAME run.py
+zip -g $ZIP_FILENAME run.py &> /dev/null
 
 echo "adding our credentials file"
-zip -g $ZIP_FILENAME .env
+zip -g $ZIP_FILENAME .env &> /dev/null
