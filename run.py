@@ -17,8 +17,7 @@ def main(event, _):
     jira_password = config_parser.get('jira', 'password')
     jira_host = config_parser.get('jira', 'host')
 
-    jira = JIRA(basic_auth=(jira_username, jira_password),
-                server=jira_host)
+    jira = JIRA(basic_auth=(jira_username, jira_password), server=jira_host)
 
     projects = jira.projects()
     print projects
